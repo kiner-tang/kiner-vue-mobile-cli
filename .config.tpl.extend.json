@@ -1,0 +1,15 @@
+{
+  "extend": {
+    "prompt": [
+      {
+        "type": "input",
+        "message": "请输入项目描述",
+        "name": "description",
+        "default": "使用Vue+Typescript+Vuex+CubeUi的移动端活动项目"
+      }
+    ],
+    "updatePkg": {
+      "description": "{{description}}"
+    }
+  }
+}
